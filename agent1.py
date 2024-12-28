@@ -64,7 +64,7 @@ Please provide:
         print(chunk.text, end="")
 
 def main():
-    genai.configure(api_key="AIzaSyDVTcactB78YpVNTKyLo45Liikw6RIwuNQ")
+    genai.configure(api_key="#")
     model = genai.GenerativeModel("gemini-1.5-flash")
     
     topic, num_loops = get_user_input()
